@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Reading history</h1>
+    </header>
+    
+    <main>
+        <div class="add-book">
+            <h3>Add book: </h3>
+
+            <div>
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author" placeholder="Stephen King" required>     
+            </div>
+               
+            <div>
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" placeholder="Doctor Sleep" required>     
+            </div>
+            
+            <div>
+                <label for="pages">Pages:</label>
+                <input type="number" name="pages" id="pages" placeholder="531" required>    
+            </div>
+            
+            <div>
+                <button type="button" id="isRead">Read</button>  
+            </div>
+            
+            <button id="submit">Submit</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

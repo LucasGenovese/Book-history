@@ -18,32 +18,35 @@
         <h1>Reading history</h1>
     </header>
     
-    <main>
-        <div class="add-book">
-            <h3>Add book: </h3>
+    <main class="add-book">
+        <h3>Add book: </h3>
 
-            <div>
-                <label for="author">Author:</label>
-                <input type="text" name="author" id="author" placeholder="Stephen King" required>     
-            </div>
-               
-            <div>
-                <label for="title">Title:</label>
-                <input type="text" name="title" id="title" placeholder="Doctor Sleep" required>     
-            </div>
-            
-            <div>
-                <label for="pages">Pages:</label>
-                <input type="number" name="pages" id="pages" placeholder="531" required>    
-            </div>
-            
-            <div>
-                <button type="button" id="isRead">Read</button>  
-            </div>
-            
-            <button id="submit">Submit</button>
+        <div>
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author" placeholder="Stephen King" required>     
         </div>
+               
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" name="title" id="title" placeholder="Doctor Sleep" required>     
+        </div>
+            
+        <div>
+            <label for="pages">Pages:</label>
+            <input type="number" name="pages" id="pages" placeholder="531" required>    
+        </div>
+            
+        <div>
+            <span>Did you read it?</span> 
+            <input type="checkbox" id="isRead"></button>  
+        </div>
+            
+        <button id="submit">Submit</button>
     </main>
+
+    <div id="book-list">
+        
+    </div>
 
 </body>
 

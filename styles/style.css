@@ -17,3 +17,8 @@ h1{
     align-items: center;
     justify-content: space-evenly;
 }
+
+.book{
+    display: flex;
+    justify-content: space-around;
+}
